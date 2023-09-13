@@ -1,0 +1,37 @@
+body {
+    background-image: url("/images/paper.jpg");
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main, 
+.gameBody {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#header{
+    margin-top: 100px;
+    font-size: 60px;
+}
+
+.gameBody {
+    width: 500px;
+    background-color: rgba(166, 225, 219, 0.4);
+    padding: 50px;
+    margin-top: 100px;
+    border: solid 5px rgba(80, 145, 126, 0.8);
+    border-radius: 15px;
+}
+
+.option {
+    background-color: transparent;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    border: solid 3px rgba(80, 145, 126, 0.8);
+    
+}
+
+.option:hover{
+    background-color: rgba(80, 145, 126, 0.5);
+}

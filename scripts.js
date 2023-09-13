@@ -14,7 +14,7 @@ let computerScore = 0;
 let playerOptions = "";
 
 function updateResult(){
-    scoreTally.textContent = `Player score: ${playerScore} - Computer score: ${computerScore}. First to 5 wins!`
+    scoreTally.textContent = `Player score: ${playerScore} - Computer score: ${computerScore}.`
 }
 
 function getComputerChoice(){
